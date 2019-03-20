@@ -7,11 +7,11 @@
 		<title>Introduction</title>
 
 		<para>
-			The Spring Social Gowalla project is an extension to <ulink url="http://www.springframework.org/spring-social">Spring Social</ulink> that enables integration with Gowalla.
+			The Spring Social Gowalla project is an extension to <ulink url="https://www.springframework.org/spring-social">Spring Social</ulink> that enables integration with Gowalla.
 		</para>
 		
 		<para>
-			<ulink url="http://www.gowalla.com">Gowalla</ulink> is a location-based social network where users may check in to various locations they visit and earn pins and stamps for having checked in a locations that achieve some goal (for example, a "Lucha Libre" pin may be earned by having checked into 10 different Mexican food restaurants).
+			<ulink url="https://www.gowalla.com">Gowalla</ulink> is a location-based social network where users may check in to various locations they visit and earn pins and stamps for having checked in a locations that achieve some goal (for example, a "Lucha Libre" pin may be earned by having checked into 10 different Mexican food restaurants).
 		</para>
 		
 		<para>
@@ -54,7 +54,7 @@
 		</para>
 
 		<para>
-			Consult <ulink url="http://static.springsource.org/spring-social/docs/1.0.x/reference/html/overview.html#overview-howtoget">Spring Social's reference documentation</ulink> for more information on Spring Social dependencies.
+			Consult <ulink url="https://docs.spring.io/spring-social/docs/1.0.x/reference/html/overview.html#overview-howtoget">Spring Social's reference documentation</ulink> for more information on Spring Social dependencies.
 		</para>
 	</section>
 
