@@ -31,7 +31,7 @@ public class GowallaAdapterTest {
 	
 	@Test
 	public void fetchProfile() {		
-		Mockito.when(gowalla.getUserProfile()).thenReturn(new GowallaProfile("habuma", "Craig", "Walls", "Plano, TX", 1, 2, "http://s3.amazonaws.com/static.gowalla.com/users/362641-standard.jpg?1294162106"));
+		Mockito.when(gowalla.getUserProfile()).thenReturn(new GowallaProfile("habuma", "Craig", "Walls", "Plano, TX", 1, 2, "https://s3.amazonaws.com/static.gowalla.com/users/362641-standard.jpg?1294162106"));
 		UserProfile profile = apiAdapter.fetchUserProfile(gowalla);
 		assertEquals("Craig Walls", profile.getName());
 		assertEquals("Craig", profile.getFirstName());
