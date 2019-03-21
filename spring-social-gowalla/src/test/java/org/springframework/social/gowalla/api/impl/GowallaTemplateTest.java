@@ -61,7 +61,7 @@ public class GowallaTemplateTest {
 		mockServer.expect(requestTo("https://api.gowalla.com/users/me")).andExpect(method(GET))
 				.andExpect(header("Authorization", "Token token=\"ACCESS_TOKEN\""))
 				.andRespond(withResponse("{\"username\":\"habuma\",\"pins_count\":17,\"stamps_count\":2}", responseHeaders));
-		assertEquals("http://www.gowalla.com/users/habuma", gowalla.getProfileUrl());
+		assertEquals("https://www.gowalla.com/users/habuma", gowalla.getProfileUrl());
 	}
 
 	@Test

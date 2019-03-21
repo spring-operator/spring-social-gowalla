@@ -75,7 +75,7 @@ public class GowallaTemplate extends AbstractOAuth2ApiBinding implements Gowalla
 	}
 
 	public String getProfileUrl() {
-		return "http://www.gowalla.com/users/" + getProfileId();
+		return "https://www.gowalla.com/users/" + getProfileId();
 	}
 	
 	public List<Checkin> getTopCheckins(String userId) {
